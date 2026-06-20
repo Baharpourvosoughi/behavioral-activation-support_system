@@ -60,7 +60,7 @@ behavioral-activation-system/
 └── README.md
 ```
 
-
+```
 ## Database Schema
 
 **users**
