@@ -1,3 +1,4 @@
+
 # Behavioral Activation System
 
 A CLI tool built on Behavioral Activation principles to help track your daily state and receive personalized activity recommendations.
@@ -31,6 +32,7 @@ A CLI tool built on Behavioral Activation principles to help track your daily st
 
 ## Project Structure
 
+    ```
     behavioral-activation-system/
     ├── src/
     │   ├── db.py              # Database setup and operations
@@ -48,6 +50,7 @@ A CLI tool built on Behavioral Activation principles to help track your daily st
     ├── main.py
     ├── requirements.txt
     └── README.md
+    ```
 
 ---
 
