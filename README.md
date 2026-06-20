@@ -22,25 +22,44 @@ The system includes 24 seed tasks across these categories:
 - **Self-care**: Take a relaxing bath, cook a healthy meal, read for pleasure, listen to favorite music
 - **Learning**: Watch educational video, read an article, practice a skill, explore new topic
 
+`
 ## Project Structure
 
-```
-behavioral-activation/
+behavioral-activation-system/
+
 ├── src/
-│   ├── db.py              # Database setup and operations
-│   ├── logger.py          # Daily check-in interface
-│   ├── recommender.py     # Task recommendation engine
-│   └── analytics.py       # Weekly trends and insights
+
+│ ├── db.py # Database setup and operations
+
+│ ├── logger.py # Daily check-in interface
+
+│ ├── recommender.py # Task recommendation engine
+
+│ └── analytics.py # Weekly trends and insights
+
 ├── experiments/
-│   ├── ml_models.py       # ML model training scripts
-│   └── seed_demo_data.py  # Generate synthetic data for testing
+
+│ ├── ml_models.py # ML model training scripts
+
+│ └── seed_demo_data.py # Generate synthetic data for testing
+
 ├── data/
-│   └── app.db             # SQLite database (auto-created)
+
+│ └── app.db # SQLite database (auto-created)
+
 ├── models/
-│   ├── mood_predictor.joblib        # Trained mood prediction model
-│   └── completion_predictor.joblib  # Trained task completion model
-├── main.py                # Entry point
+
+│ ├── mood_predictor.joblib
+
+│ └── completion_predictor.joblib
+
+├── main.py # Entry point
+
+├── requirements.txt
+
 └── README.md
+`
+
 
 ## Database Schema
 
