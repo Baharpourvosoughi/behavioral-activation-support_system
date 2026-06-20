@@ -22,7 +22,7 @@ The system includes 24 seed tasks across these categories:
 - **Self-care**: Take a relaxing bath, cook a healthy meal, read for pleasure, listen to favorite music
 - **Learning**: Watch educational video, read an article, practice a skill, explore new topic
 
-`
+```
 ## Project Structure
 
 behavioral-activation-system/
@@ -58,7 +58,7 @@ behavioral-activation-system/
 ├── requirements.txt
 
 └── README.md
-`
+```
 
 
 ## Database Schema
