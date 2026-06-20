@@ -72,29 +72,39 @@ A CLI tool built on Behavioral Activation principles to help track your daily st
 
 Clone the project:
 
+    ```
     git clone https://github.com/your-username/behavioral-activation-system.git
     cd behavioral-activation-system
+    ```
 
 Set up a virtual environment:
 
+    ```
     python -m venv venv
     source venv/bin/activate        # macOS/Linux
     venv\Scripts\activate           # Windows
+    ```
 
 Install dependencies:
 
+    ```
     pip install rich pandas scikit-learn joblib
+    ```
 
 Run the app:
 
+    ```
     python main.py
+    ```
 
 The database and default tasks are created automatically on first run.
 
 **Optional — generate demo data and train ML models:**
 
+    ```
     python experiments/seed_demo_data.py
     python experiments/ml_models.py
+    ```
 
 This creates mood_predictor.joblib and completion_predictor.joblib in the models/ folder.
 
