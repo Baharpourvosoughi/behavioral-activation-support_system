@@ -11,7 +11,7 @@ def main():
     init_db()
 
     console.print(Panel.fit(
-        "[bold cyan]Behavioral Activation System[/bold cyan]\n"
+        "[bold cyan]Behavioral Activation support System[/bold cyan]\n"
         "[dim]A small personal project to track mood and stay active[/dim]",
         border_style="cyan"
     ))
